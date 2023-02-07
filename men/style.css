@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.krzysiu{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(188, 188, 188);
+}
+.radek{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 300px;
+    height: 450px;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.topradek{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 50%;
+    background-color: rgb(109, 109, 243);
+    z-index: 1;
+}
+.inradek{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    margin-top: 59%;
+    margin-bottom: 10%;
+    background-color: green;
+    z-index: 2;
+
+}
