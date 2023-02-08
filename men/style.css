@@ -52,11 +52,12 @@
     position: absolute;
     text-align: center;
     width: 548px;
-    height: 50px;
+    height: 90px;
     border: 1px solid red;
     margin-top: 10%;
     font-weight: 900;
     font-size: 60px;
+    overflow: hidden;
 }
 .lowernikolas{
     position: absolute;
@@ -68,4 +69,48 @@
     font-weight: 500;
     font-size: 25px;
     color: gray;
+}
+
+.dupa{
+    position: absolute;
+    text-align: center;
+    width: 548px;
+    height: 90px;
+    border: 1px solid rgb(9, 255, 0);
+    margin-top: 50%;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.c1{
+    margin-left: 30%;
+    margin-top: 3%;
+    width: 300px;
+    height: 50px;
+    border: 1px solid orange;
+    align-self: left;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+.btn{
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    font-size: 15px;
+    font-weight: 700px;
+    text-align: center;
+    color: gray;
+    border: 1px solid rgb(255, 0, 212);
+}
+
+.c1p1{
+    position: relative;
+    font-size: 15px;
+    font-weight: 700px;
+    text-align: right;
+    color: gray;
+    border: 1px solid rgb(0, 204, 255);
 }
