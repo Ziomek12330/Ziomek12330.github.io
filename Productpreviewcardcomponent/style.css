@@ -67,6 +67,7 @@ body{
     display: grid;
     grid-template-columns: 50% 50%;
     margin-top: 10%;
+    padding: 6px 6px 6px 25px;
 }
 .price :nth-child(2){
     display: flex;
@@ -106,9 +107,9 @@ button{
     margin-top: 8%;
 }
 button img{
-margin-left: 0.5em;
- width: 1.5em;
- height: 1.5em;
+margin-left: 3em;
+ width: 0.6em;
+ height: 0.6em;
  align-items: right;
 }
 button p{
@@ -116,9 +117,9 @@ button p{
     text-align: center;
     font-weight: 700;
     color: white;
-    font-size: 0.7em;
+    font-size: 0.55em;
 }
-button :hover{
+button:hover{
     background-color:hsl(158, 36%, 23%)
     
 
