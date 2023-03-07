@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+@media (min-width: 500px)
+{
+    .ava{
+        width: 500px;
+    }
+    .kys
+    {
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .ava{
+        width: 100%;
+        flex-direction: column;
+    }
+    .kys
+    {
+        width: 100%;
+    }
+}
+
+.ava{
+    height: 350px;
+    display: flex;
+}
+.kys{
+    height: 100%;
+    overflow: hidden;
+    background: rgb(46,43,233);
+    background: linear-gradient(13deg, rgba(46,43,233,1) 33%, rgba(120,87,255,1) 100%);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: grid;
+    grid-template-rows: 10% 50% 10% 30%;
+}
+
+
+.heal{
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    box-shadow: 9px 13px 29px -12px rgba(0, 0, 0, 0.64);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows:  17% 17% 17% 17% 17% 17%;
+    padding: 2rem;
+}
+.zaa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+
+}
+.zaa h1{
+    color: rgb(199,199,199);
+    font-weight: 500;
+    font-size: 1em;
+}
+
+
+.zab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.zbb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: linear-gradient(202deg, hsla(241, 72%, 46%, 0) 2%, hsla(256, 72%, 46%, 1) 50%); 
+    font-weight: 700;
+    color: azure; 
+    overflow: hidden;
+    text-align: center;
+}
+
+.zbb h2{
+    font-size: 2.5em;
+}
+
+.zbb p{
+    font-size: 0.7em;
+    font-weight: 500;
+    color: rgb(199,199,199);
+}
+
+.zac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+
+}
+.zac h4{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.zad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 10%;
+}
+
+.zad h3{
+    color: rgb(199,199,199);
+    font-weight: 500;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.top{
+    color: rgb(85, 85, 85);
+    font-size: 0.6rem;
+}
+
+.reaction{
+    height: 75%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+}
+.reaction h1{
+    font-size: 1em;
+    color: #F55;
+}
+.reaction p{
+    font-size: 1em;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.memory{
+    height: 75%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+}
+.memory h1{
+    font-size: 1em;
+    color: #FFB21E;
+}
+.memory p{
+    font-size: 1em;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.verbal{
+    height: 75%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+}
+.verbal h1{
+    font-size: 1em;
+    color: #00BB8F;
+}
+.verbal p{
+    font-size: 1em;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.visual{
+    height: 75%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+}
+.visual h1{
+    font-size: 1em;
+    color: #1125D6;
+}
+.visual p{
+    font-size: 1em;
+    text-align: right;
+    margin-right: 5px;
+}
+button{
+    border-radius: 20px;
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+}
+button p{
+    color: white;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+button:hover{
+    border-radius: 20px;
+    background: hsl(256, 72%, 46%);
+    border: none;
+}
