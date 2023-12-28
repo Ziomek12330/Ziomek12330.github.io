@@ -427,11 +427,27 @@ body {
 }
 /*top menu end*/
 
-h1 {
-    font-family: Rubik Broken Fax;
+.rop{
+display: grid;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+
+h1{
+    font-family: VT323;
     font-size: 70px;
     color: #FFF;
-    text-align: center;
-    margin-top: 100px;
-    font-weight: 400;
+    font-weight: 500;
+    width:100% ;
+}
+h2{
+    font-family: VT323;
+    font-size: 50px;
+    color: #FFF;
+    font-weight: 200;
 }
