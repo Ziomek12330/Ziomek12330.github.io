@@ -427,12 +427,7 @@ body {
 }
 /*top menu end*/
 
-.rop{
-display: grid;
-grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-justify-content: center;
-align-items: center;
-}
+
 
 
 
@@ -444,10 +439,12 @@ h1{
     color: #FFF;
     font-weight: 500;
     width:100% ;
+    text-align: center;
 }
 h2{
     font-family: VT323;
     font-size: 50px;
     color: #FFF;
     font-weight: 200;
+    text-align: center;
 }
